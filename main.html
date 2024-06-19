@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
   <body>
+	  <form id="urlForm">
+		 <label for="name">Name:</label>
+		  <input id = "name" name = "name">
+		  <label for="year">Graduation year:</label>
+		  <input id = "year" name = "year">
+		  <button type="button" id = "button">Submit</button>
+	  </form>
+	  <h3 id="url">https://localhost:8080/</h3>
     <script type="text/javascript" src="./script.js">
 </script>
   </body>
